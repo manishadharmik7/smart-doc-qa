@@ -1,0 +1,38 @@
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+
+# AI - Embeddings (runs 100% locally, no API key needed)
+sentence-transformers==3.3.1
+
+# LangChain text splitter (chunking only)
+langchain-text-splitters==0.3.3
+
+# AI - LLM via Groq API (free tier, fast)
+groq==0.13.1
+
+# HuggingFace hub (used for embeddings utilities)
+huggingface-hub==0.27.0
+
+# Vector Database
+chromadb==0.6.3
+
+# Document Processing
+PyPDF2==3.0.1
+
+# Frontend
+streamlit==1.41.1
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
+email-validator==2.3.0

@@ -1,0 +1,36 @@
+# Environment — NEVER commit API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Database files — contains user data
+*.db
+*.sqlite3
+
+# ChromaDB — contains user vectors/documents
+chroma_db/
+
+# Sentence-transformers model cache
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
