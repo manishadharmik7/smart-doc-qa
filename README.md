@@ -8,10 +8,10 @@ A production-ready RAG (Retrieval-Augmented Generation) system where users regis
 
 ## Live Demo
 
-- **App URL:** `[YOUR STREAMLIT CLOUD URL]`
-- **API Docs:** `[YOUR RENDER BACKEND URL]/docs`
-- **Test Email:** `test@hypermindz.com`
-- **Test Password:** `test1234`
+- **App URL:** `https://smart-doc-app-a8qp7izlxq6sns8n9dgfr9.streamlit.app/`
+- **API Docs:** `https://smart-doc-qa.onrender.com/docs`
+- **Test Email:** `test@gmail.com`
+- **Test Password:** `test123`
 
 > Note: Backend is on Render free tier - first request may take ~30s if the service was sleeping.
 
