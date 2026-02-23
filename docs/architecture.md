@@ -78,9 +78,10 @@ System prompt enforces:
 
 ## AI Tool Usage
 
-- **Claude Code (Anthropic)**: Architecture design, code scaffolding
-- **Code reviewed and understood** before accepting suggestions
-- All architectural decisions made independently
+- **Claude Code (Anthropic)**: Used for boilerplate scaffolding and code suggestions
+- All architectural decisions made independently based on project requirements
+- AI-generated code was reviewed, tested, and understood before use
+- Design patterns (JWT auth, RAG pipeline, user isolation) chosen and implemented personally
 
 ## Trade-offs Made
 

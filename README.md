@@ -197,9 +197,10 @@ smart-doc-qa/
 
 ## AI Tool Usage
 
-- Claude Code (Anthropic): Architecture design, boilerplate scaffolding, code review
-- All decisions made independently; AI suggestions reviewed before use
-- Custom prompt engineering in rag.py prevents hallucination and enforces source citation
+- **Claude Code (Anthropic)**: Used for boilerplate scaffolding and code suggestions
+- All architectural decisions, design choices, and implementations made independently
+- AI suggestions were reviewed, modified, or rejected based on project requirements
+- Core logic (RAG pipeline, auth flow, data isolation strategy) written and understood personally
 
 ---
 
